@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main()
+{
+    int t,e,m,s,ss,tot;
+    float avg;
+    printf("Enter your Tamil mark: ", t);
+    scanf("%d",&t);
+    printf("Enter your English mark: ", e);
+    scanf("%d",&e);
+    printf("Enter your Maths mark: ", m);
+    scanf("%d",&m);
+    printf("Enter your Science mark: ", s);
+    scanf("%d",&s);
+    printf("Enter your Social mark: ", ss);
+    scanf("%d",&ss);
+    tot=t+e+m+s+ss;
+    printf("Total mark is:%d ", tot);
+    avg=tot/5;
+    printf("\nAverage mark is:%f ", avg);
+    return 0;
+}
